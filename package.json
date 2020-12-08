@@ -1,6 +1,6 @@
 {
     "name": "@suukii/ginit",
-    "version": "0.0.1-beta",
+    "version": "0.0.1",
     "description": "A better git init",
     "main": "index.js",
     "bin": {
