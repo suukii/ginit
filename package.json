@@ -1,0 +1,28 @@
+{
+    "name": "@suukii/ginit",
+    "version": "0.0.1",
+    "description": "A better git init",
+    "main": "index.js",
+    "bin": {
+        "ginit": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0"
+    },
+    "keywords": [
+        "Git",
+        "CLI"
+    ],
+    "author": "suukii",
+    "license": "ISC",
+    "dependencies": {
+        "@octokit/auth-token": "^2.4.4",
+        "@octokit/rest": "^18.0.12",
+        "chalk": "^4.1.0",
+        "configstore": "^5.0.1",
+        "inquirer": "^7.3.3",
+        "minimist": "^1.2.5",
+        "ora": "^5.1.0",
+        "simple-git": "^2.24.0"
+    }
+}
